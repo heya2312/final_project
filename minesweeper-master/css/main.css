@@ -29,9 +29,9 @@ body {
 button {
     font-family: 'MS Sans Serif';
     text-align: left;
-    font-size: 14px;
-    height: 30px;
-    width: 100px;
+    font-size: 30px;
+    height: 60px;
+    width: 200px;
     background-color: #BFBFBF;
     color: black;
     border-bottom: 2px solid #7B7B7B;
@@ -88,7 +88,7 @@ button:hover {
 #footer {
     text-align: center;
     position: fixed;
-    height: 36px;
+    height: 60px;
     background-color: #BFBFBF;
     bottom: 0px;
     left: 0px;
@@ -134,9 +134,9 @@ button:hover {
 }
 
 #size-btns {
-    float: left;
+    float: center;
     display: inline;
-    margin: 2px;
+    margin: 10px;
 }
 
 #start {
