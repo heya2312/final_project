@@ -52,11 +52,14 @@ nav.floating {
 
 }
 
+
 .site-menu-game li{
     font-size: 18px;
     margin: 60px;
     text-align: center;
 }
+
+
 *,
 ::before,
 ::after {
@@ -105,6 +108,15 @@ img {
 .header-logo {
     display: block;
     width: 170px;
+}
+
+.header-logo-text h1{
+    font-size: 25px;
+    margin: 60px;
+    text-align: left;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px #4b2c14;
 }
 
 .site-menu ul {
