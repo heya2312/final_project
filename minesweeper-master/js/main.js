@@ -94,12 +94,6 @@ function buildTable() {
       <div id="window-title"><img src="images/mine-menu-icon.png"> Minesweeper</div>
       <div id="window-controls"><img src="images/window-controls.png"></div>
     </td>
-  <tr>
-    <td class="menu" id="folder-bar" colspan="${size}">
-      <div id="folder1"><a href="https://github.com/nickarocho/minesweeper/blob/master/readme.md" target="blank">Read Me </a></div>
-      <div id="folder2"><a href="https://github.com/nickarocho/minesweeper" target="blank">Source Code</a></div>
-    </td>
-  </tr>
   </tr>
     <tr>
       <td class="menu" colspan="${size}">

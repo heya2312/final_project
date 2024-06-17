@@ -19,11 +19,11 @@ nav.floating {
 
 .first-view-text {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 15px;
     color: #ffffff;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
@@ -31,8 +31,8 @@ nav.floating {
 
 .first-view-text h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 56px;
-    line-height: 72px;
+    font-size: 30px;
+    line-height: 50px;
 }
 
 .first-view-text p {
@@ -45,6 +45,18 @@ nav.floating {
     margin: 60px auto;
 }
 
+.body-site-menu{
+    font-size: 18px;
+    margin: 60px;
+    
+
+}
+
+.site-menu-game li{
+    font-size: 18px;
+    margin: 60px;
+    text-align: center;
+}
 *,
 ::before,
 ::after {
@@ -137,7 +149,7 @@ img {
     }
 
     .header-logo {
-        width: 100px;
+        width: 50px;
     }
 
     .header-site-menu {
