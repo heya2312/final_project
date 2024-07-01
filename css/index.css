@@ -95,6 +95,7 @@ nav.floating {
     background: -moz-linear-gradient(#ffb03c, #ff708d);
     background: -webkit-linear-gradient(#ffb03c, #ff708d);
     background: linear-gradient(to right, #ffb03c, #ff708d);
+    background-image: url('Minesweeper-master/index.html');
 }
 
 
