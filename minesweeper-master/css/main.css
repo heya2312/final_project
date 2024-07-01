@@ -29,7 +29,7 @@ body {
 button {
     font-family: 'MS Sans Serif';
     text-align: left;
-    font-size: 14px;
+    font-size: 30px;
     height: 60px;
     width: 200px;
     background-color: #BFBFBF;
@@ -134,9 +134,11 @@ button:hover {
 }
 
 #size-btns {
-    float: center;
-    display: inline;
+    float: left;
+    display: flex;
     margin: 10px;
+    margin-left: 100px;
+    flex-flow: column;
 }
 
 #start {
@@ -197,4 +199,35 @@ td {
     background: -webkit-linear-gradient(left, rgba(33,41,89,1) 0%,rgba(33,41,89,1) 11%,rgba(80,114,161,1) 56%,rgba(117,172,219,0.7) 92%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(33,41,89,1) 0%,rgba(33,41,89,1) 11%,rgba(80,114,161,1) 56%,rgba(117,172,219,0.7) 92%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#212959', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #bbbbbb;
+    height: 80px;
+    z-index: 10;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+.header-inner {
+    max-width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-menu-button {
+    display: none;
+}
+
+.header-logo {
+    display: block;
+    width: 170px;
 }
