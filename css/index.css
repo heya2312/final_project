@@ -25,9 +25,9 @@ nav.floating {
     margin-right: auto;
     padding-left: 40px;
     padding-bottom: 15px;
-    color: #ffffff;
+    color: #e1e431;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #4b2c14;
+    text-shadow: 1px 1px 10px #3b3a3a8c;
 }
 
 .first-view-text h1 {
@@ -56,9 +56,9 @@ nav.floating {
     margin-right: auto;
     padding-left: 20px; /* 左の余白を調整 */
     padding-bottom: 15px;
-    color: #e2ed04;
+    color: #f7f8f5;
     font-weight: bold;
-    text-shadow: 1px 1px 10px #e2e607;
+    text-shadow: 1px 1px 10px #fefef6;
     
 }
 
@@ -125,7 +125,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background: linear-gradient(-20deg, #d558c8 0%, #c5e125 100%);
+    background: linear-gradient(-20deg, #36e9f6 0%, #cdf2f5 100%);
 }
 
 img {
@@ -154,7 +154,7 @@ img {
     width: 170px;
 }
 
-.header-logo-text h1{
+.header-logo-text li{
     font-size: 25px;
     margin: 120px;
     text-align: left;
