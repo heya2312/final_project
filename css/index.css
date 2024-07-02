@@ -69,11 +69,11 @@ nav.floating li:hover {
 .body-site-menu {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px; /* フッターとの間に余白を追加 */
 }
 
 .site-menu-middle ul {
     list-style-type: none; /* リストのマーカーを消去 */
-    padding: 10px 0; /* 上下の余白を設定 */
     text-align: center; /* テキストを中央揃えにする */
 }
 
@@ -121,7 +121,33 @@ nav.floating li:hover {
     background: linear-gradient(to right, #ffb03c, #ff708d);
 }
 
+.footer {
+    text-align: center; /* リンクを中央揃えにする */
+    background-color: #06080c;
+    background-image: linear-gradient(0deg, #06080c 12%, #565f3d 50%, #040303 93%);    
+    margin-top: 80px; /* フッターの上に余白を追加 */
+    padding: 20px; /* フッター内の上下左右に20pxの余白を追加 */
+}
 
+.site-menu ul {
+    list-style-type: none; /* リストのマーカーを消去 */
+    padding: 0; /* リストの余白を消去 */
+}
+
+.site-menu li {
+    margin-bottom: 10px; /* リスト項目の下マージンを設定 */
+    text-shadow: 1px 1px 10px #706f6f8c;
+    font-size: 20px;
+}
+
+
+
+.site-menu a {
+    display: block; /* リンクをブロックレベル要素にする */
+    text-decoration: none; /* リンクの下線を消去 */
+    color: #f7f6f6; /* リンクの色を設定 */
+    padding: 10px; /* リンクのパディングを設定 */
+}
 
 
 
@@ -149,6 +175,7 @@ body {
     color: #000000;
     line-height: 1;
     background: linear-gradient(-20deg, #e7f737 0%, #614d02 100%);
+    margin: 0; /* body要素のデフォルトのマージンをリセット */
 }
 
 img {
@@ -161,8 +188,8 @@ img {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -175,34 +202,30 @@ img {
 
 .header-logo {
     display: block;
-    width: 170px;
+    width: 75px;
+}
+
+.header-logo-text {
+    flex: 1; /* 残りのスペースを取る */
+    text-align: center; /* テキストを中央揃え */
 }
 
 .header-logo-text li{
-    font-size: 25px;
-    margin: 120px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
     color: #f968de;
     font-weight: bold;
     text-shadow: 1px 1px 10px #5e5654;
+    display: inline-block; /* テキストをインラインブロックにすることで中央揃えが有効に */
 }
 
-.site-menu ul {
-    display: flex;
-}
-
-.site-menu ul li {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.site-menu ul li a {
-    font-family: 'Cherry Bomb One', cursive;
-}
 
 .header {
     width: 100%;
-    background-color: #f1f5f5;
+    background-color: #ffffff;
+    background-image: linear-gradient(90deg, #ffffff 0%, #f3c2f3 50%, #ffffff 100%);
+    border: 4px solid #0c0c0c; /* 外枠を追加 (色や太さは必要に応じて調整) */
+    border-radius: 10px; /* 角を丸くする（必要なら） */
 }
 
 @media (max-width: 800px) {
