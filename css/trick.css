@@ -65,7 +65,15 @@ nav.floating li:hover {
 .first-view-text h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    line-height: 50px;
+    margin-top: 20px; /*上に空白を追加*/
+    color: #d5f504;
+    text-shadow: 1px 1px 20px #000000;
+}
+
+.first-view-text ul {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 20px; /*上に空白を追加*/
     color: #d5f504;
     text-shadow: 1px 1px 20px #000000;
 }
