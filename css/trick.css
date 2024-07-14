@@ -10,6 +10,7 @@ nav.floating {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
 }
 
+
 nav.floating li {
     color: #333; /* リンクの色 */
     text-decoration: none; /* 下線をなくす */
@@ -47,6 +48,7 @@ nav.floating li:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
     line-height: 50px;
+    margin-bottom: 60px; /* 下に空白を追加 */
     font-weight: bold;
     margin-bottom: 25px; /* 下に20pxの空白を追加 */
 }
@@ -65,16 +67,17 @@ nav.floating li:hover {
 .first-view-text h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    margin-top: 20px; /*上に空白を追加*/
-    color: #d5f504;
+    margin-top: 30px; /*上に空白を追加*/
+    color: #c8ff00;
     text-shadow: 1px 1px 20px #000000;
 }
 
 .first-view-text ul {
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    margin-left: 40px; /* 左に20pxの空白を追加 */
     margin-top: 20px; /*上に空白を追加*/
-    color: #d5f504;
+    color: #ffffff;
     text-shadow: 1px 1px 20px #000000;
 }
 
