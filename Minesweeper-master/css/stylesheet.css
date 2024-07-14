@@ -2,21 +2,21 @@
   position: absolute;
   left: 50px;
   background-color: #fac906;
-  padding: 5px 2px; /* 内側の余白を追加 */
-  border-radius: 8px; /* 角丸にする */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
+  padding: 5px 2px; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 nav.floating li {
-  color: #d4ff00; /* リンクの色 */
-  text-decoration: none; /* 下線をなくす */
-  font-weight: bold; /* 太字 */
-  margin-right: 15px; /* リンク間の間隔 */
-  transition: color 0.3s ease; /* 色の変化を滑らかにする */
+  color: #d4ff00; 
+  text-decoration: none; 
+  font-weight: bold; 
+  margin-right: 15px; 
+  transition: color 0.3s ease; 
 }
 
 nav.floating li:hover {
-  color: #16cfd9; /* ホバー時の色 */
+  color: #16cfd9; 
 }
 
 .header-inner {
@@ -43,14 +43,14 @@ nav.floating li:hover {
 }
 
 .header-logo img {
-  width: 75px; /* 画像の幅を50pxに設定 */
-  height: auto; /* 高さは自動調整 */
+  width: 75px; 
+  height: auto; 
 }
 
 
 .header-logo-text {
-  flex: 1; /* 残りのスペースを取る */
-  text-align: center; /* テキストを中央揃え */
+  flex: 1; 
+  text-align: center; 
 }
 
 .header-logo-text h1{
@@ -59,7 +59,7 @@ nav.floating li:hover {
   color: #f968de;
   font-weight: bold;
   text-shadow: 1px 1px 10px #5e5654;
-  display: inline-block; /* テキストをインラインブロックにすることで中央揃えが有効に */
+  display: inline-block; 
 }
 
 
@@ -67,8 +67,8 @@ nav.floating li:hover {
   width: 100%;
   background: rgb(93,87,8);
   background: radial-gradient(circle, rgba(93,87,8,1) 8%, rgba(74,53,10,1) 35%);
-  border: 4px solid #0c0c0c; /* 外枠を追加 (色や太さは必要に応じて調整) */
-  border-radius: 10px; /* 角を丸くする（必要なら） */
+  border: 4px solid #0c0c0c; 
+  border-radius: 10px; 
 }
 
 
@@ -147,20 +147,20 @@ a {
 }
 
 .footer {
-  text-align: center; /* リンクを中央揃えにする */
+  text-align: center; 
   background-color: #06080c;
   background-image: linear-gradient(0deg, #06080c 12%, #565f3d 50%, #040303 93%);    
-  margin-top: 80px; /* フッターの上に余白を追加 */
-  padding: 20px; /* フッター内の上下左右に20pxの余白を追加 */
+  margin-top: 80px; 
+  padding: 20px; 
 }
 
 .site-menu ul {
-  list-style-type: none; /* リストのマーカーを消去 */
-  padding: 0; /* リストの余白を消去 */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 .site-menu li {
-  margin-bottom: 10px; /* リスト項目の下マージンを設定 */
+  margin-bottom: 10px; 
   text-shadow: 1px 1px 10px #706f6f8c;
   font-size: 20px;
 }
@@ -168,10 +168,10 @@ a {
 
 
 .site-menu a {
-  display: block; /* リンクをブロックレベル要素にする */
-  text-decoration: none; /* リンクの下線を消去 */
-  color: #f7f6f6; /* リンクの色を設定 */
-  padding: 10px; /* リンクのパディングを設定 */
+  display: block; 
+  text-decoration: none; 
+  color: #f7f6f6; 
+  padding: 10px; 
 }
 
 
