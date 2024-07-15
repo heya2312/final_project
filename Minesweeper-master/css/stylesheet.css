@@ -1,11 +1,4 @@
-.floating {
-  position: absolute;
-  left: 50px;
-  background-color: #fac906;
-  padding: 5px 2px; 
-  border-radius: 8px; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-}
+@charset "utf-8";
 
 nav.floating li {
   color: #d4ff00; 
@@ -53,7 +46,7 @@ nav.floating li:hover {
   text-align: center; 
 }
 
-.header-logo-text h1{
+.header-logo-text li{
   font-size: 35px;
   text-align: center;
   color: #f968de;
@@ -176,7 +169,7 @@ a {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 00px) {
   .separator {
     height: 0;
     width: 100%;
@@ -189,8 +182,8 @@ a {
     order: 3;
     margin-top: 2.5em;
   }
-}
 
+}
 
 /* --  page default -- */
 
@@ -448,6 +441,19 @@ a.button {
   box-shadow: 0 1px 1px #666;
 }
 
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
 .header-inner {
   max-width: 1200px;
   height: 110px;
@@ -465,11 +471,11 @@ a.button {
   width: 170px;
 }
 
-
 nav.floating {
   position: absolute;
   top: 100px;
   left: 50px;
+  border-radius: 8px; 
   background-color: #d0d0d0;
 }
 
@@ -513,4 +519,165 @@ img {
   max-width: 100%;
 }
 
+
+@media (max-width: 800px) {
+  .site-menu ul {
+      display: block;
+      text-align: center;
+  }
+
+  .site-menu li {
+      margin-top: 20px;
+  }
+
+  .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+
+      height: 50px;
+      z-index: 10;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .header-inner {
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 100%;
+      position: relative;
+  }
+
+  .header-logo {
+      width: 50px;
+  }
+
+  .header-site-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      color: #ffffff;
+      background-color: #736e62;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      display: none;
+  }
+
+  .header-site-menu.is-show {
+      display: block;
+  }
+
+  .main {
+      padding-top: 50px;;
+  }
+
+  .footer-logo {
+      margin-top: 60px;
+  }
+
+  .copyright {
+      margin-top: 50px;
+  }
+
+  .toggle-menu-button {
+      display: block;
+      width: 44px;
+      height: 34px;
+      background-image: url(../images/common/icon-menu.png);
+      background-size: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      outline: none;
+  }
+
+  .footer {
+      color: #ffffff;
+      background-color: #24211b;
+      padding-top: 30px;
+      padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .footer-logo {
+      display: block;
+      width: 235px;
+      margin-top: 90px;
+  }
+  
+  .copyright {
+      font-size: 14pt;
+      font-weight: bold;
+      margin-top: 90px;
+  }
+  
+  .header-logo-text li{
+      font-size: 15px;
+      margin: 25px;
+      text-align: left;
+      color: #f968de;
+      font-weight: bold;
+      text-shadow: 1px 1px 10px #5e5654;
+  }
+  
+  .first-view-text {
+      width: 100%;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 40px;
+      padding-bottom: 15px;
+      color: #f7f1a4;
+      font-weight: bold;
+      text-shadow: 1px 1px 10px #2423238c;
+  }
+  
+  .first-view-text h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 25px;
+      line-height: 40px;
+  }
+  
+  .first-view-text p {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-left: 20px; 
+      margin-top: 50px;
+      margin-bottom: 25px; 
+  }
+  
+  .lead {
+      font-size: 18px;
+  }
+  
+  nav.floating {
+      position: absolute;
+      font-size: 13px;
+      top: 50px;
+      left: 20px;
+      background-color: #d0d0d0;
+      padding: 5px 5px; 
+      border-radius: 8px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav.floating li {
+      color: #d4ff00; 
+      text-decoration: none; 
+      font-weight: bold; 
+      margin-right: 15px; 
+      transition: color 0.3s ease; 
+  }
+  
+  nav.floating li:hover {
+      color: #16cfd9; 
+  }
+
+}
 
